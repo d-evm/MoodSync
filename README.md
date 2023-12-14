@@ -26,12 +26,21 @@ For music enthusiasts, an additional feature allows users to seamlessly create a
 
 
 <h2> Screenshots: </h2>
-![Annotation 2023-12-13 163920](https://github.com/d-evm/MoodSync/assets/109520844/ac3d73ae-eb6f-40fb-91e4-cacc7a785266)
 
-![image](screenshots/homepage)
-![image](https://github.com/d-evm/MoodSync/assets/109520844/ea3a5610-7211-494d-8477-ba7eca60c76d)
-![image](https://github.com/d-evm/MoodSync/assets/109520844/f3be62ca-9cb8-448a-8057-36b162db420c)
-![image](https://github.com/d-evm/MoodSync/assets/109520844/8685b1ae-9207-4504-9e8e-af1876028438)
+Homepage:
+![_homepage_](screenshots/homepage)
+<br>
+
+Select mood:
+![_music_page_1_](https://github.com/d-evm/MoodSync/assets/109520844/ea3a5610-7211-494d-8477-ba7eca60c76d)
+<br>
+
+Generated playlist:
+![_music_page_2_](https://github.com/d-evm/MoodSync/assets/109520844/f3be62ca-9cb8-448a-8057-36b162db420c)
+<br>
+
+Connect to Spotify:
+![_music_page_3_](https://github.com/d-evm/MoodSync/assets/109520844/8685b1ae-9207-4504-9e8e-af1876028438)
 <br>
 
 <h2> System design: </h2>
@@ -43,4 +52,8 @@ For music enthusiasts, an additional feature allows users to seamlessly create a
   <li>HTML</li>
   <li>CSS</li>
 </ul>
+
+<br>
+Flowhart:
+![_flowchart_](https://github.com/d-evm/MoodSync/assets/109520844/cbb49315-77a3-4748-8c6f-707b5a0a1e15)
 
