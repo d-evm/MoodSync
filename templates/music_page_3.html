@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        overflow: visible;
+        background-color: #191414;
+      }
+      .main {
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 135px 17px 0px 350px;
+        padding: 0px 0px 0px 0px;
+      }
+      h2 {
+        color: #1db954;
+        margin: 15px 0px 15px 109px;
+      }
+      input {
+        text-decoration: none;
+        border: #191414;
+        border-radius: 25px;
+        margin: 0px 0px 0px -20px;
+        padding: 0px 0px 0px 20px;
+        font-size: 2.1em;
+      }
+      .inp {
+        margin: 0px 55px 0px 69px;
+        padding: 0px 0px 0px 0px;
+      }
+      button {
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: larger;
+        background-color: #292929;
+        border: #292929;
+        border-radius: 20px;
+        margin: 285px 42px 6px 555px;
+        padding: 15px 45px 15px 45px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #1db954;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="h2">
+        <h2>Enter your Spotify username:</h2>
+      </div>
+      <div class="inp">
+        <form action="/music/generated_list/connect_spotify/complete" method="get">
+          <input type="text" name="spotify_username" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="but">
+      <button>
+        <a href="/music/generated_list/connect_spotify/complete">Next</a>
+      </button>
+    </div>
+  </body>
+</html>

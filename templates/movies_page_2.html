@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-left: -20px;
+        background-color: #191414;
+      }
+      .options {
+        /* border: 1px solid black; */
+        overflow: visible;
+        float: right;
+        margin: 120px 186px 140px 135px;
+        padding: 0px 0px 0px 0px;
+      }
+      #first {
+        color: white;
+        border-radius: 20px;
+        background-color: #292929;
+        /* border: 1px solid black; */
+        margin: 15px 30px 15px 30px;
+        padding: 20px 52px 20px 65px;
+      }
+      #first:hover {
+        cursor: pointer;
+        background-color: #ff3131;
+      }
+      #second {
+        color: white;
+        border-radius: 20px;
+        background-color: #292929;
+        /* border: 1px solid black; */
+        margin: 15px 30px 15px 30px;
+        padding: 20px 117px 20px 121px;
+      }
+      #second:hover {
+        cursor: pointer;
+        background-color: #ff3131;
+      }
+      #third {
+        color: white;
+        border-radius: 20px;
+        background-color: #292929;
+        /* border: 1px solid black; */
+        margin: 15px 30px 15px 30px;
+        padding: 20px 4px 20px 69px;
+      }
+      #third:hover {
+        cursor: pointer;
+        background-color: #ff3131;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .outer-box {
+            width: 275px;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            margin: -250px -425px;
+            padding: 19px 15px 19px 0px;
+            background-color: #ff3131;
+       }
+
+      .inner-content {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll; 
+            margin: 0px  0px  ;
+            padding: 0px  0px 0px 15px ;
+       }
+
+
+       .inner-content::-webkit-scrollbar{
+        width: 10px;
+       }
+       .inner-content::-webkit-scrollbar-track{
+        background: #7c7979;
+        border-radius: 15px;
+       }
+       .inner-content::-webkit-scrollbar-thumb {
+        background: #c2bdbd;
+        border-radius: 15px;
+       }
+       .inner-content::-webkit-scrollbar-thumb:hover {
+        background: #555;
+       }
+
+
+      .inner-content li{
+          /* border: 1px solid black; */
+          border-radius: 20px;
+          /* background-color: #292929; */
+          list-style: decimal;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: large;
+          color: white;
+          text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="options">
+      <h2 id="first">
+        <a href="/movies/">Create Another</a>
+      </h2>
+      <!-- <h2 id="second"><a href="">Share</a></h2> -->
+      <h2 id="second"><a href="/">Back To Home</a></h2>
+
+      <div class="outer-box">
+        <div class="inner-content">
+          {% if generated_list is not none %} {% for name in generated_list %}
+          <li>{{name}}</li>
+          <br />
+          {% endfor %} {% else %}
+          <p>No generated list available.</p>
+          {% endif %}
+        </div>
+      </div>
+  </body>
+</html>
