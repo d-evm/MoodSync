@@ -26,7 +26,9 @@ For music enthusiasts, an additional feature allows users to seamlessly create a
 
 
 <h2> Screenshots: </h2>
-![image](/screenshots/homepage)
+![Annotation 2023-12-13 163920](https://github.com/d-evm/MoodSync/assets/109520844/ac3d73ae-eb6f-40fb-91e4-cacc7a785266)
+
+![image](screenshots/homepage)
 ![image](https://github.com/d-evm/MoodSync/assets/109520844/ea3a5610-7211-494d-8477-ba7eca60c76d)
 ![image](https://github.com/d-evm/MoodSync/assets/109520844/f3be62ca-9cb8-448a-8057-36b162db420c)
 ![image](https://github.com/d-evm/MoodSync/assets/109520844/8685b1ae-9207-4504-9e8e-af1876028438)
